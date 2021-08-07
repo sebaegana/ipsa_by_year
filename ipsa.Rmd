@@ -1,6 +1,8 @@
 ---
 title: "Empresas constituyentes del IPSA - 2000 al 2020"
-output: github_document
+output: 
+  html_document:
+    keep_md: true
 
 ---
 
