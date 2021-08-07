@@ -1,5 +1,5 @@
 ---
-title: "Empresas constituyentes del IPSA - 2000 al 2020"
+title: "Empresas constituyentes del IPSA desde 2000 al 2020"
 output: 
   html_document:
     keep_md: true
