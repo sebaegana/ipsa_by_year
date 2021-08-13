@@ -3,6 +3,8 @@ Empresas constituyentes del IPSA desde 2000 al 2020
 
 ## R Markdown
 
+programación utilizada para generación de la tabla:
+
 ``` r
 git_ipsa <- read_excel("git_ipsa.xlsx", skip = 2)
 
