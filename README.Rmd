@@ -1,0 +1,30 @@
+---
+title: "Empresas constituyentes del IPSA desde 2000 al 2020"
+output: github_document
+
+---
+
+
+Esto corresponde a un intento de compartir las empresas constituyentes del IPSA entres los años 2000 al 2020.
+
+Comentarios y dudas [mail](mailto:sebaegana@gmail.com)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+
+```
+
+## R Markdown
+
+```{r}
+git_ipsa <- read_excel("git_ipsa.xlsx", skip = 2)
+
+git_ipsa[is.na(git_ipsa)] <- " "
+
+knitr::kable(git_ipsa)
+
+```
+
+
++ Para descargar, ver el archivo  [git_ipsa.xlsx](https://github.com/sebaegana/ipsa_by_year/blob/master/git_ipsa.xlsx)
