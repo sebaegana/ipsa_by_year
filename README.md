@@ -6,7 +6,10 @@ del IPSA entres los años 2000 al 2020.
 
 Comentarios y dudas [mail](mailto:sebaegana@gmail.com)
 
-## R Markdown
+``` r
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+```
 
 ``` r
 git_ipsa <- read_excel("git_ipsa.xlsx", skip = 2)
